@@ -203,11 +203,12 @@ body, html {
 /* =============================== QUADRADO =================== */
 .lateral {
   flex-direction: column;
+  margin-right: 20px;
 }
 
 .video {
   width: 600px;
-  height: 600px;
+  height: 560px;
   background-color: white;
   border-radius: 20px;
   padding: 20px;
@@ -284,3 +285,99 @@ body, html {
   font-size: 22px;
   font-weight: 400;
 }
+
+.Reserva{
+  width: 640px;
+  height: 640px;
+  background-color: rgb(255, 255, 255)  ;
+  margin-top: 80px;
+}
+
+.Reserva h2{
+  font-size: 32px;
+}
+
+
+input{
+  height: 50px;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  margin-top: 6px;
+  font-size: 18;
+  border: 1px solid black;
+}
+
+input::-webkit-input-placeholder{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+label{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 20px;
+  margin-top: 80px;
+  padding-left: 10px;
+}
+
+.obs textarea{
+  height: 150px;
+  width: 630px;
+  border-radius: 10px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  font-size: 18px;
+  margin-top: 6px;
+  border: 1px solid black;
+}
+
+textarea::-webkit-input-placeholder{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+.formula{
+padding-right: 430px;
+}
+
+.formulaH{
+  padding-right: 547px;
+}
+
+.formulaE{
+  padding-right: 572px;
+}
+
+.formulaN{
+  padding-right: 570px;
+}
+
+.formulaD{
+  padding-right: 576px;
+}
+
+.formulaO{
+  padding-right: 495px;
+}
+
+.final{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.final h1{
+  font-size: 54px;
+  font-family: 'Playfair Display', serif;
+  margin: 0px;
+  margin-top: 100px;
+}
+
+.final p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  padding: 20px 20px 20px 20px;
+  margin-top: 0px;
+}
+
