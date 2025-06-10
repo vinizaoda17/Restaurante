@@ -302,7 +302,6 @@ input{
   height: 50px;
   width: 600px;
   border-radius: 10px;
-  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
   margin-top: 6px;
   font-size: 18;
   border: 1px solid black;
@@ -321,7 +320,7 @@ label{
 }
 
 .obs textarea{
-  height: 150px;
+  height: 120px;
   width: 630px;
   border-radius: 10px;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
@@ -381,3 +380,10 @@ padding-right: 430px;
   margin-top: 0px;
 }
 
+.final input{
+  margin-top: 0px;
+  border: 0.5;
+  height: 50px;
+  width: 300px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
