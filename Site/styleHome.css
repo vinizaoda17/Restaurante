@@ -44,6 +44,7 @@ ul {
 body, html {
   margin: 0;
   padding: 0;
+  letter-spacing: 2px;
 }
 
 .main, .fotoMaior {
@@ -208,7 +209,7 @@ body, html {
 
 .video {
   width: 600px;
-  height: 560px;
+  height: 600px;
   background-color: white;
   border-radius: 20px;
   padding: 20px;
@@ -305,6 +306,7 @@ input{
   margin-top: 6px;
   font-size: 18;
   border: 1px solid black;
+  cursor: pointer;
 }
 
 input::-webkit-input-placeholder{
@@ -335,8 +337,8 @@ textarea::-webkit-input-placeholder{
   padding-left: 10px;
 }
 
-.formula{
-padding-right: 430px;
+.formula {
+  margin-right: 400px;
 }
 
 .formulaH{
@@ -348,7 +350,7 @@ padding-right: 430px;
 }
 
 .formulaN{
-  padding-right: 570px;
+  padding-right: 540px;
 }
 
 .formulaD{
@@ -359,14 +361,25 @@ padding-right: 430px;
   padding-right: 495px;
 }
 
-.final{
+.finalissima{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  
+  align-items: center; 
 }
 
-.final h1{
+.clientes h1{
+  padding-top: 50;
+  font-size: 54px;
+  font-family: 'Playfair Display', serif;
+  margin: 0px;
+}
+
+.final{
+  padding-top: 0px;
+  margin-top: 50px;
+}
+
+.finalissima h1{
   font-size: 54px;
   font-family: 'Playfair Display', serif;
   margin: 0px;
@@ -384,6 +397,99 @@ padding-right: 430px;
   margin-top: 0px;
   border: 0.5;
   height: 50px;
+  width: 300px;
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+}
+
+.botao{
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+.botao:hover{
+  background-color: red;
+  color: white;
+  border: none;
+}
+
+.clientes{
+  background-color:rgb(247, 249, 250);
+  width: 100%;
+  height: 800px;
+  margin-top: 150px;
+}
+
+.tituloClientes{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 30px 30px 30px;
+  margin: 0px;
+}
+
+.relatorios{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+.caixa{
+  width: 550px;
+  height: 450px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-left: 41px;
+  margin-right: 41px;
+}
+
+.estrela {
+  color: gold;                
+  font-size: 40px;
+}
+
+.estrela::before {
+  content: '★★★★★';               
+  display: flex;
+  padding: 10px 0px 0px 20px;
+}
+  
+.comentarios{
+  display: flex;
+  padding: 10px 20px 20px 20px;
+  font-size: 20px;
+  line-height: 1.7;
+}
+
+.organizar{
+  display: flex;
+  padding: 6px 20px 20px 20px;
+}
+
+.organizar h1{
+  font-size: 20px;
+  padding: 10px 20px 0px 16px;
+}
+
+.colunas{
+  flex-direction: column;
+}
+
+.organizar p{
+  font-size:18x;
+  padding: 0px 20px 0px 16px;
+  color: rgb(58, 58, 58);
+} 
+
+.emailFinal .botaoF{
+  margin-top: 0px;
+  border: 0.5;
+  height: 70px;
   width: 300px;
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
 }
