@@ -486,10 +486,20 @@ textarea::-webkit-input-placeholder{
   color: rgb(58, 58, 58);
 } 
 
-.emailFinal .botaoF{
-  margin-top: 0px;
-  border: 0.5;
-  height: 70px;
-  width: 300px;
+.emailFinal .botaoF {
+  height: 56px;          
+  width: 150px;           
+  border: 1px solid #000000; 
   box-shadow: 0 0 0px rgba(0, 0, 0, 0.5);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;       
+  color: black;
+  background-color: white;
+  cursor: pointer;       
+}
+
+.emailFinal .botaoF:hover {
+  background-color: red;
+  color: white;
+  border: none;
 }
